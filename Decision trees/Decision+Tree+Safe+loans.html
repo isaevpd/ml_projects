@@ -11941,12 +11941,12 @@ Percentage of safe loans is: 0.19.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">safe</span><span class="p">,</span> <span class="n">bad</span> <span class="o">=</span> <span class="n">train_data</span><span class="p">[</span><span class="s1">&#39;safe_loans&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
-<span class="k">print</span> <span class="s1">&#39;Percentage of safe loans is: {0:.2f}.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">safe</span> <span class="o">/</span> <span class="nb">float</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">loans</span><span class="p">)))</span>
-<span class="k">print</span> <span class="s1">&#39;Percentage of safe loans is: {0:.2f}.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">bad</span> <span class="o">/</span> <span class="nb">float</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">loans</span><span class="p">)))</span>
+<span class="k">print</span> <span class="s1">&#39;Percentage of safe loans is: {0:.2f}.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">safe</span> <span class="o">/</span> <span class="nb">float</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">train_data</span><span class="p">)))</span>
+<span class="k">print</span> <span class="s1">&#39;Percentage of safe loans is: {0:.2f}.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">bad</span> <span class="o">/</span> <span class="nb">float</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">train_data</span><span class="p">)))</span>
 </pre></div>
 
 </div>
@@ -11959,8 +11959,8 @@ Percentage of safe loans is: 0.19.
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Percentage of safe loans is: 0.15.
-Percentage of safe loans is: 0.15.
+<pre>Percentage of safe loans is: 0.50.
+Percentage of safe loans is: 0.50.
 </pre>
 </div>
 </div>
